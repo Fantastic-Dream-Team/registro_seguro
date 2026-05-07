@@ -15,7 +15,7 @@ try {
     // Procesamiento con manejo de excepciones
     $hash = validarRegistro($nombre, $email, $password, $confirmar);
 
-    // HTML de Éxito (Mantiene tu diseño original)
+    // HTML de Éxito 
     ?>
     <!DOCTYPE html>
     <html lang='es'>
@@ -43,7 +43,7 @@ try {
     <?php
 
 } catch (Exception $e) {
-    // HTML de Error (Mantiene tu diseño original)
+    // HTML de Error 
     $errorMsg = $e->getMessage();
     ?>
     <!DOCTYPE html>
