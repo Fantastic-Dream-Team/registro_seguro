@@ -92,7 +92,7 @@
     <div class="registro-container">
         <h2>Crear Cuenta</h2>
         
-        <form action="" method="POST" id="registroForm">
+        <form action="procesador.php" method="POST" id="registroForm">
             
             <div class="form-group">
                 <label for="nombre">Nombre completo</label>
